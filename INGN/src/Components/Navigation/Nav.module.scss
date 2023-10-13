@@ -77,8 +77,8 @@
       li {
         a {
           font-size: 1.5rem;
-          font-family: var(--textFont);
-          color: var(--blackEye);
+          font-family: var(--Roboto);
+          color: var(--black);
           padding-left: 20px;
         }
       }
@@ -102,22 +102,27 @@
       align-items: center;
       margin: 10px;
       h1 {
-        font-family: var(--logoFont);
-        color: var(--redApple);
-        font-size: 2.8125rem;
+        color: var(--fireenginered);
+        text-decoration: none;
+        width: 100%;
+        max-width: 289px;
+        font-family: var(--Righteous);
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 59.6px;
       }
       a {
         text-decoration: none;
-        color: var(--blackEye);
+        color: var(--black);
       }
       ul {
         list-style-type: none;
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: var(--snowWhite);
+        background-color: var(--whitesmoke);
         width: 100%;
-        border-bottom: solid 2px var(--redApple);
+        border-bottom: solid 2px var(--fireenginered);
         opacity: 95%;
         li {
           padding-left: 60%;
@@ -126,7 +131,7 @@
       }
     }
     .burger {
-      color: var(--redApple);
+      color: var(--fireenginered);
       font-size: 2rem;
       position: absolute;
       right: 5%;
