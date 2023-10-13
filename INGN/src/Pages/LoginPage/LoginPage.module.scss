@@ -1,0 +1,100 @@
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: var(--whitesmoke);
+    padding: 27px 20px 29px 20px;
+
+
+    .form {
+        width: 100%;
+        background-color: var(--white);
+        max-width: 1229px;
+        margin: 0 auto;
+        padding-top: 108px;
+        padding-bottom: 519px;
+
+
+
+        .loginwrapper {
+            width: 100%;
+            max-width: 726px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+
+            h2 {
+                font-family: var(--Roboto);
+                color: var(--black);
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 42.19px;
+                margin-bottom: 62px;
+        
+            }
+
+
+            label {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 36px;
+
+
+                p {
+                    font-family: var(--Roboto);
+                    color: var(--black);
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18.75px;
+                    margin-bottom: 4px;
+                }
+
+                input {
+                    max-width: 726px;
+                    border: none;
+                    border: 3px solid var(--fireenginered);
+                    padding: 15px;
+
+                }
+
+            }
+
+            .submit {
+                max-width: 223px;
+                border: 2px solid #C52525;
+                background-color: white;
+                padding: 22px 0px;
+                cursor: pointer;
+                font-family: var(--Roboto);
+                color: var(--black);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18.75px;
+            }
+
+
+        }
+
+
+    }
+
+
+}
+
+
+// Mobilvisning
+@media (max-width: 768px) {
+
+
+    
+    
+}
+
+@media (max-width: 390px) {
+
+    .submit {
+        width: 50%;
+    }
+
+}

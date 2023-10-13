@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#root {
+  background-color: var(--whitesmoke);
+  width: 100%;
+  margin: 0 auto;
+}
